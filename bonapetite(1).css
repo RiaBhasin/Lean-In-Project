@@ -270,3 +270,57 @@ p a:hover{
 	font-size: 1.1em;
     transition: font-size 0.2s;
 }
+
+#part5b{
+
+	background-image: url("https://source.unsplash.com/exSEmuA7R7k");
+	background-size: cover;
+	background-position: center;
+}
+
+#section{
+
+	padding: 4rem 1rem;
+}
+
+#columns{
+   
+   	padding-top: 3rem;	
+}
+
+#columns i{
+	padding-bottom: 1rem;
+}
+
+#pizza{
+	color: white;
+	text-align: center;
+}
+
+#pizza:after{
+	 display:block;
+     content: '';
+     background-color: tomato;
+     height: 2px;
+     transform: scaleX(1);
+     width:10%;
+     margin: 0 auto;
+     margin-top: 1rem;
+     margin-bottom: 2rem;
+     }
+
+#review{
+	font-size: 1.7rem;
+	font-weight: 700;
+	line-height: 2.5rem;
+	text-align: left;
+	color: white;
+}
+
+#review img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-right: 5px;
+	margin-top: 10px;
+}
