@@ -56,7 +56,7 @@ p{
 #part3 img{
 	height: 200px;
 	float: left;
-	width: 100%;
+	width: 25%;
 	margin: 0 auto;
 }
 
@@ -79,10 +79,9 @@ p{
   transform: scale(1);
 }
 #mainavbar .navbar-brand{
-   margin: 32px 64px;
-   width: 50px;
-   height: 50px;
-   display: 
+   margin: 30px;
+   width: 40px;
+   height: 40px;
 }
 
 #para{
@@ -156,7 +155,7 @@ p{
 
 
 .navbar.scrolled{
-    background: lightpink;
+    background: rgba(255,182,193,0.7);
     transition: background 1s;
 }
 
