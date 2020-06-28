@@ -44,6 +44,29 @@ p{
 	margin-bottom: 1rem;
 }
 
+#parts{
+	animation-delay: 0.5s;
+}
+
+.fadeIn{
+	animation-name: fadeIn;
+}
+
+.pulse{
+	animation-name: pulse;
+}
+
+.fadeInDown{
+	animation-name: fadeInDown;
+}
+.fadeInUp{
+	animation-name: fadeInUp;
+}
+
+.animated{
+	animation-duration: 2s;
+}
+
 #cols{
 	margin: 1.5rem 0 1rem 0;
 }
@@ -58,6 +81,7 @@ p{
 	float: left;
 	width: 25%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 #link {
@@ -165,6 +189,8 @@ p{
 }
 
 #h2{
+
+	margin-top: 3rem;
 	padding: 4rem 7rem;
 }
 
